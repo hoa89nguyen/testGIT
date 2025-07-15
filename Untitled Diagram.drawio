@@ -196,11 +196,11 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="ZVqZApbHSjTUumFHVwHU-46" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="160" y="220" width="600" height="320" as="geometry" />
+        <mxCell id="ZVqZApbHSjTUumFHVwHU-46" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;" vertex="1" parent="1">
+          <mxGeometry x="160" y="220" width="600" height="360" as="geometry" />
         </mxCell>
-        <mxCell id="ZVqZApbHSjTUumFHVwHU-22" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="240" y="70" width="360" height="70" as="geometry" />
+        <mxCell id="ZVqZApbHSjTUumFHVwHU-22" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;" vertex="1" parent="1">
+          <mxGeometry x="239" y="70" width="440" height="70" as="geometry" />
         </mxCell>
         <mxCell id="ZVqZApbHSjTUumFHVwHU-11" value="Insurance Admin&lt;br&gt;Partners&lt;br&gt;Cooporators" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="500" y="-60" width="14" height="40" as="geometry" />
@@ -238,8 +238,8 @@
         <mxCell id="ZVqZApbHSjTUumFHVwHU-26" value="Insurance Portal" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="447" y="80" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ZVqZApbHSjTUumFHVwHU-28" value="Front end storefront" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="320" y="110" width="190" height="30" as="geometry" />
+        <mxCell id="ZVqZApbHSjTUumFHVwHU-28" value="Front end storefront (Angular-base application)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="280" y="110" width="310" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ZVqZApbHSjTUumFHVwHU-30" value="Claim-service" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="200" y="280" width="120" height="60" as="geometry" />
@@ -260,7 +260,7 @@
           <mxGeometry x="600" y="400" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ZVqZApbHSjTUumFHVwHU-37" value="Keycloak" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="420" y="500" width="80" height="30" as="geometry" />
+          <mxGeometry x="380" y="490" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ZVqZApbHSjTUumFHVwHU-38" value="DB" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
           <mxGeometry x="240" y="320" width="40" height="40" as="geometry" />
@@ -281,19 +281,34 @@
           <mxGeometry x="640" y="445" width="40" height="40" as="geometry" />
         </mxCell>
         <mxCell id="ZVqZApbHSjTUumFHVwHU-47" value="API Gateway" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="380" y="190" width="120" height="60" as="geometry" />
+          <mxGeometry x="399" y="190" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ZVqZApbHSjTUumFHVwHU-49" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.695;exitY=1.05;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="ZVqZApbHSjTUumFHVwHU-28">
+        <mxCell id="ZVqZApbHSjTUumFHVwHU-54" value="Microservices" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=26;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="130" y="550" width="228" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZVqZApbHSjTUumFHVwHU-57" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.464;exitY=0.986;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="ZVqZApbHSjTUumFHVwHU-22">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="390" y="370" as="sourcePoint" />
-            <mxPoint x="451" y="190" as="targetPoint" />
+            <mxPoint x="440" y="150" as="sourcePoint" />
+            <mxPoint x="442" y="190" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ZVqZApbHSjTUumFHVwHU-50" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.425;exitY=0.025;exitDx=0;exitDy=0;entryX=0.6;entryY=0.917;entryDx=0;entryDy=0;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="ZVqZApbHSjTUumFHVwHU-47" target="ZVqZApbHSjTUumFHVwHU-28">
+        <mxCell id="ZVqZApbHSjTUumFHVwHU-58" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.658;exitY=0.033;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.552;entryY=0.971;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="ZVqZApbHSjTUumFHVwHU-47" target="ZVqZApbHSjTUumFHVwHU-22">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="390" y="370" as="sourcePoint" />
-            <mxPoint x="440" y="320" as="targetPoint" />
+            <mxPoint x="390" y="360" as="sourcePoint" />
+            <mxPoint x="440" y="310" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="ZVqZApbHSjTUumFHVwHU-59" value="REST API" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="429" y="150" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZVqZApbHSjTUumFHVwHU-61" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZVqZApbHSjTUumFHVwHU-34" target="ZVqZApbHSjTUumFHVwHU-37">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="470" as="sourcePoint" />
+            <mxPoint x="440" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZVqZApbHSjTUumFHVwHU-62" value="SpringBoot / Java-based Apps" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="530" y="540" width="190" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
