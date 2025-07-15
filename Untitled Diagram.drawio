@@ -4,20 +4,67 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="UjCFQ7PMpwBuIPrYDN6p-1" value="EmailEvent" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="40" y="120" width="70" height="20" as="geometry" />
+        <mxCell id="IERMq7UUHjSpAM49B5VY-22" value="" style="rounded=0;whiteSpace=wrap;html=1;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="10" y="60" width="320" height="180" as="geometry" />
         </mxCell>
-        <mxCell id="IERMq7UUHjSpAM49B5VY-2" value="&lt;span style=&quot;background-color: rgb(255, 255, 255); padding: 0px 0px 0px 2px;&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); background-color: rgb(255, 255, 255); font-family: Menlo; font-size: 12pt; white-space: pre;&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(0, 0, 0); background-color: rgb(212, 212, 212);&quot;&gt;EventListener&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="160" y="120" width="130" height="40" as="geometry" />
+        <mxCell id="IERMq7UUHjSpAM49B5VY-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="IERMq7UUHjSpAM49B5VY-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="100" y="145" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="IERMq7UUHjSpAM49B5VY-3" value="Messaging service" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="610" y="110" width="120" height="80" as="geometry" />
+          <mxGeometry x="620" y="100" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="IERMq7UUHjSpAM49B5VY-5" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.25;entryY=0.938;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="IERMq7UUHjSpAM49B5VY-3">
+        <mxCell id="IERMq7UUHjSpAM49B5VY-5" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="IERMq7UUHjSpAM49B5VY-3">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="640" y="280" as="sourcePoint" />
-            <mxPoint x="650" y="190" as="targetPoint" />
+            <mxPoint x="680" y="240" as="sourcePoint" />
+            <mxPoint x="669.5" y="189.99999999999997" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="IERMq7UUHjSpAM49B5VY-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="IERMq7UUHjSpAM49B5VY-6" target="IERMq7UUHjSpAM49B5VY-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IERMq7UUHjSpAM49B5VY-6" value="Import email templates" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="630" y="240" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="IERMq7UUHjSpAM49B5VY-7" value="Event Listener" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="120" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="IERMq7UUHjSpAM49B5VY-8" value="EmailServiceClient" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="120" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="IERMq7UUHjSpAM49B5VY-9" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.017;entryY=0.588;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="IERMq7UUHjSpAM49B5VY-8" target="IERMq7UUHjSpAM49B5VY-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="350" as="sourcePoint" />
+            <mxPoint x="440" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IERMq7UUHjSpAM49B5VY-10" value="Rest API" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="520" y="120" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IERMq7UUHjSpAM49B5VY-12" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="IERMq7UUHjSpAM49B5VY-24" target="IERMq7UUHjSpAM49B5VY-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="350" as="sourcePoint" />
+            <mxPoint x="440" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IERMq7UUHjSpAM49B5VY-18" value="Trigger" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="112.5" width="80" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="IERMq7UUHjSpAM49B5VY-19" value="Email Event" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="110" y="112.5" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IERMq7UUHjSpAM49B5VY-23" value="Spring context Event/EventListener" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="60" y="200" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IERMq7UUHjSpAM49B5VY-26" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="IERMq7UUHjSpAM49B5VY-7" target="IERMq7UUHjSpAM49B5VY-24">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="300" y="145" as="sourcePoint" />
+            <mxPoint x="380" y="145" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IERMq7UUHjSpAM49B5VY-24" value="Populate data" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="310" y="130" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
