@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="28.2.0" pages="11">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="28.2.0" pages="12">
   <diagram name="Email-Messaging" id="t0ThtvtuX2MWwwEGuj6j">
     <mxGraphModel dx="1018" dy="615" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1290,6 +1290,65 @@
         </mxCell>
         <mxCell id="PbA0Ikhs2iZCDPi01kUQ-10" value="OAuth" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="255" y="148" width="60" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="cEPRQmE2dQFXJzW7xBbP" name="INT-192">
+    <mxGraphModel dx="1018" dy="616" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="TvmQvaYgg1q__eYDya7F-1" value="Insurance service" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TvmQvaYgg1q__eYDya7F-2" value="Sftp server" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="930" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TvmQvaYgg1q__eYDya7F-3" value="Storage service" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="920" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TvmQvaYgg1q__eYDya7F-4" value="Job service" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TvmQvaYgg1q__eYDya7F-5" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="TvmQvaYgg1q__eYDya7F-4" target="TvmQvaYgg1q__eYDya7F-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="610" y="350" as="sourcePoint" />
+            <mxPoint x="660" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TvmQvaYgg1q__eYDya7F-6" value="trigger" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="410" y="168" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TvmQvaYgg1q__eYDya7F-8" value="E-policy processing" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="720" y="150" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="TvmQvaYgg1q__eYDya7F-9" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="TvmQvaYgg1q__eYDya7F-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="640" y="190" as="sourcePoint" />
+            <mxPoint x="690" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TvmQvaYgg1q__eYDya7F-10" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="TvmQvaYgg1q__eYDya7F-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="840" y="190" as="sourcePoint" />
+            <mxPoint x="890" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TvmQvaYgg1q__eYDya7F-11" value="download" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="840" y="168" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TvmQvaYgg1q__eYDya7F-12" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="TvmQvaYgg1q__eYDya7F-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="780" y="230" as="sourcePoint" />
+            <mxPoint x="830" y="180" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="780" y="310" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TvmQvaYgg1q__eYDya7F-13" value="store epolicy file" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="745" y="278" width="110" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
