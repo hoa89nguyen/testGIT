@@ -1223,6 +1223,9 @@
             <mxPoint x="660" y="350" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="GOwlX_SMjCUcKFHutrvi-47" value="&lt;font style=&quot;font-size: 19px;&quot;&gt;Insurance claim&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="220" y="30" width="160" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
