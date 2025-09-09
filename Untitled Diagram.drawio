@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="28.2.0" pages="10">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="28.2.0" pages="11">
   <diagram name="Email-Messaging" id="t0ThtvtuX2MWwwEGuj6j">
     <mxGraphModel dx="1018" dy="615" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1246,6 +1246,50 @@
         </mxCell>
         <mxCell id="GOwlX_SMjCUcKFHutrvi-60" value="- Department" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="200" y="300" width="10" height="32" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="ULx0JkPBCnolRH6iyXw6" name="INT-045">
+    <mxGraphModel dx="1018" dy="616" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="PbA0Ikhs2iZCDPi01kUQ-1" value="Insurance service" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PbA0Ikhs2iZCDPi01kUQ-2" value="Messaging service" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PbA0Ikhs2iZCDPi01kUQ-3" value="DBM" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PbA0Ikhs2iZCDPi01kUQ-4" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="PbA0Ikhs2iZCDPi01kUQ-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="240" y="150" as="sourcePoint" />
+            <mxPoint x="290" y="100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PbA0Ikhs2iZCDPi01kUQ-5" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="PbA0Ikhs2iZCDPi01kUQ-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="480" y="150" as="sourcePoint" />
+            <mxPoint x="530" y="100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PbA0Ikhs2iZCDPi01kUQ-6" value="Rest API" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="260" y="120" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PbA0Ikhs2iZCDPi01kUQ-7" value="Rest API" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="500" y="120" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PbA0Ikhs2iZCDPi01kUQ-8" value="Centralize outbound&amp;nbsp; request to SCPI/ DBM" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="350" y="190" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PbA0Ikhs2iZCDPi01kUQ-9" value="OAuth" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="505" y="148" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PbA0Ikhs2iZCDPi01kUQ-10" value="OAuth" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="255" y="148" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
