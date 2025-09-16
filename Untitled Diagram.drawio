@@ -1470,7 +1470,7 @@
         <mxCell id="X5cmhoBoqgQ-fGTC7LQD-21" value="IoT service" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="865" y="350" width="70" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="X5cmhoBoqgQ-fGTC7LQD-22" value="subscription" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="X5cmhoBoqgQ-fGTC7LQD-22" value="Subscription" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="770" y="170" width="110" height="40" as="geometry" />
         </mxCell>
         <mxCell id="X5cmhoBoqgQ-fGTC7LQD-23" value="Vehicles data" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
